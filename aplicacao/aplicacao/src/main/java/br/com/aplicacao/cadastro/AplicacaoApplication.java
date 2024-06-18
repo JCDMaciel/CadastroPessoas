@@ -19,7 +19,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *     }
  * }</pre>
  *
- * @author [Seu nome]
+ * @author [João Cleber Dias Maciel]
  * @see SpringApplication
  * @see SpringBootApplication
  */

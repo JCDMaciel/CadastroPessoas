@@ -21,7 +21,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  *     }
  * }</pre>
  *
- * @author [Seu nome]
+ * @author [João Cleber Dias Maciel]
  * @see SpringBootServletInitializer
  * @see SpringApplicationBuilder
  * @see AplicacaoApplication
