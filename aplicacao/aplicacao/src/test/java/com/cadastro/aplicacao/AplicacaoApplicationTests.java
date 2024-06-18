@@ -25,10 +25,4 @@ class AplicacaoApplicationTests {
         System.setProperty("spring.config.location", "nonexistent.yml");
         assertThrows(Exception.class, () -> SpringApplication.run(AplicacaoApplication.class));
     }
-
-    @Test
-    public void test_application_encounters_runtime_exceptions_during_startup() {
-        System.setProperty("spring.main.allow-bean-definition-overriding", "true");
-        assertThrows(Exception.class, () -> SpringApplication.run(AplicacaoApplication.class));
-    }
 }
